@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{54deffd9-b3df-4b4c-ae17-a5f634f258a4}">
+		<property name="name">
+			<value>CloseToForest</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e7639c31-6c80-4e59-9898-3b02a1e1f5e9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e7639c31-6c80-4e59-9898-3b02a1e1f5e9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

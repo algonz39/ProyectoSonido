@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{93354654-72a7-47d6-bbc0-394b0f889f52}">
+		<property name="assetPath">
+			<value>howling-winter-storm-ambient-sounds-6756.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>336.48000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3113cfeb-f69a-429a-9c5c-80616c9591cc}</destination>
+		</relationship>
+	</object>
+</objects>

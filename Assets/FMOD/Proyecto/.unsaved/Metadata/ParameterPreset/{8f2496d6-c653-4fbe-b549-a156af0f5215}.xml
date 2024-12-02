@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8f2496d6-c653-4fbe-b549-a156af0f5215}">
+		<property name="name">
+			<value>CloseToBonfire</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{467a653d-17d9-4aff-92a5-a540fcf30a3a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{467a653d-17d9-4aff-92a5-a540fcf30a3a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
