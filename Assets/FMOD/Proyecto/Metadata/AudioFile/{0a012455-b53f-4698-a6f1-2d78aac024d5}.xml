@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0a012455-b53f-4698-a6f1-2d78aac024d5}">
+		<property name="assetPath">
+			<value>fountain-73903 - Trimmed - Trimmed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>39.921958333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3113cfeb-f69a-429a-9c5c-80616c9591cc}</destination>
+		</relationship>
+	</object>
+</objects>
