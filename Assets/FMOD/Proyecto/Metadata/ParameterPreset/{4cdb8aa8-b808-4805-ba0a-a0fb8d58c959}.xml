@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4cdb8aa8-b808-4805-ba0a-a0fb8d58c959}">
+		<property name="name">
+			<value>CloseToPond</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e760184d-d843-44b6-bbb8-17e1b9263b5d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e760184d-d843-44b6-bbb8-17e1b9263b5d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
