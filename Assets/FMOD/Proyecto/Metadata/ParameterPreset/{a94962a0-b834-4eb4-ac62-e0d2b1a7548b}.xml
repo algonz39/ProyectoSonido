@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a94962a0-b834-4eb4-ac62-e0d2b1a7548b}">
+		<property name="name">
+			<value>RoomType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9b4d0249-a277-4ed0-b896-366ddbc4ecea}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9b4d0249-a277-4ed0-b896-366ddbc4ecea}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Oficina</value>
+			<value>Avenida</value>
+			<value>Plaza</value>
+			<value>Playa</value>
+			<value>Bosque</value>
+			<value>Montana</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

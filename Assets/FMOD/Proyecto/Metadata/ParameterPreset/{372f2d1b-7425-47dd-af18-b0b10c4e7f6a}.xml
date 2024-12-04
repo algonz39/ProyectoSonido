@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{372f2d1b-7425-47dd-af18-b0b10c4e7f6a}">
+		<property name="name">
+			<value>DoorAperture</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0cf0fc7d-092c-4585-b67e-b2906648232c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0cf0fc7d-092c-4585-b67e-b2906648232c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
