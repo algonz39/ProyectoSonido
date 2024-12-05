@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{fbebdffe-77db-4eec-b116-8662de3db9e4}">
+		<property name="name">
+			<value>CloseToRoad</value>
+		</property>
+		<relationship name="folder">
+			<destination>{961a2223-5a45-44ff-8772-1572cc7dc87c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{116a0ae5-9a9d-4b4b-ade6-3806ea3d17ce}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{116a0ae5-9a9d-4b4b-ade6-3806ea3d17ce}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
