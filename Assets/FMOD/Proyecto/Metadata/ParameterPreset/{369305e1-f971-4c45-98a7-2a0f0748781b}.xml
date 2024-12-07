@@ -19,14 +19,14 @@
 			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
+			<value>Floor</value>
 			<value>Grass</value>
 			<value>Snow</value>
 			<value>Sand</value>
 			<value>Wet</value>
-			<value>Floor</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 </objects>

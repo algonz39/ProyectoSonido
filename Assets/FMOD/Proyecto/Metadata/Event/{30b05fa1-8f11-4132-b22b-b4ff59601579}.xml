@@ -121,7 +121,10 @@
 	<object class="MixerBusPanner" id="{c6b46c1a-033f-44a0-ac23-ea089c7f8718}" />
 	<object class="MultiSound" id="{14f18078-2066-429e-a2c1-6c8c569f775f}">
 		<property name="start">
-			<value>1</value>
+			<value>2</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{1287e19a-4d9c-4960-9bd8-d3040dbd30ef}</destination>
@@ -133,6 +136,12 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{8ffae804-3aab-4536-bee0-6345c43ac48d}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{aaffe808-64ca-4431-857c-c5cc00504450}</destination>
 			<destination>{7ff7a97b-1cfa-4d65-b0eb-59bc82910437}</destination>
@@ -144,7 +153,10 @@
 	</object>
 	<object class="MultiSound" id="{46ce4ed7-d76e-44f0-8fb8-35fb875837bc}">
 		<property name="start">
-			<value>2</value>
+			<value>3</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{4f9dc670-a706-4b00-9168-13a2c70a801a}</destination>
@@ -155,7 +167,10 @@
 	</object>
 	<object class="MultiSound" id="{84433605-2fca-4ba8-b710-13f930b653ac}">
 		<property name="start">
-			<value>3</value>
+			<value>4</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{8535a8d1-906f-4800-a82b-9e593e55dc2c}</destination>
@@ -192,8 +207,8 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{91eafd95-9dcd-485b-9302-a88c0df7fcb6}">
-		<property name="start">
-			<value>4</value>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{fad30810-4d02-4eae-b578-5b4706c2a4e6}</destination>

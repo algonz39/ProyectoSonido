@@ -41,5 +41,9 @@ public class DoorController : Interactable
         hinge.localRotation = Quaternion.Euler(0, -100 * aperture, 0);
     }
 
+    public float getApperture() {   
+        return aperture;
+    }
+
 
 }

@@ -15,6 +15,8 @@ public class LookController : MonoBehaviour
 
     void Start()
     {
+        rotationX = transform.rotation.eulerAngles.x;
+        rotationY = transform.rotation.eulerAngles.y;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
