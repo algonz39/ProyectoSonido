@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class DoorController : Interactable
     private float openingSpeed = 1.0f;
     private float aperture;
     private Transform hinge;
+    private StudioEventEmitter emitter;
 
     private Material objectMaterial;
     private Color originalColor;
@@ -21,6 +23,7 @@ public class DoorController : Interactable
         hinge = transform.parent;
         objectMaterial = GetComponent<Renderer>().material;
         originalColor = objectMaterial.GetColor("_EmissionColor");
+        emitter = GetComponent<StudioEventEmitter>();
         aperture = 0.0f;
     }
     public override void onFocus()
@@ -31,14 +34,19 @@ public class DoorController : Interactable
     public override void onLostFocus()
     {
         objectMaterial.SetColor("_EmissionColor", originalColor);
+        if(emitter.IsPlaying()) emitter.Stop();
     }
 
     public override void onInteract(int mouseButton)
     {
         int direction = 1 - 2 * mouseButton;
+        if (!emitter.IsPlaying()) emitter.Play();
+        emitter.SetParameter("DoorAperture", aperture);
+        emitter.SetParameter("Direction", mouseButton);
         aperture += direction * Time.deltaTime * openingSpeed;
         aperture = Mathf.Clamp01(aperture);
         hinge.localRotation = Quaternion.Euler(0, -100 * aperture, 0);
+        emitter.SetParameter("DoorAperture", aperture);
     }
 
     public float getApperture() {   

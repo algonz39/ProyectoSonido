@@ -10,7 +10,6 @@ public class PlazaController : MonoBehaviour
     private float maxDistance;
     [SerializeField]
     private Transform playerPos, pidgeonTr, fountainTr;
-    [SerializeField]
     private StudioEventEmitter emitter;
 
     private Vector3 pidgeonPos, fountainPos;
@@ -19,13 +18,14 @@ public class PlazaController : MonoBehaviour
     {
         pidgeonPos = pidgeonTr.position;
         fountainPos = fountainTr.position;
+        emitter = GetComponent<StudioEventEmitter>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        emitter.SetParameter("pidgeon", getParameterValue(pidgeonPos));
-        emitter.SetParameter("fountain", getParameterValue(fountainPos));
+        emitter.SetParameter("PalomasCerca", getParameterValue(pidgeonPos));
+        emitter.SetParameter("Cercania a fuente", getParameterValue(fountainPos));
     }
 
     float getParameterValue(Vector3 position) {

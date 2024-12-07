@@ -20,10 +20,6 @@ public class MiniMap : MonoBehaviour
     void Start()
     {
         minimap = GetComponent<Canvas>();
-        foreach (GameObject text in texts)
-        {
-            text.SetActive(false);
-        }
     }
 
     // Update is called once per frame
@@ -31,6 +27,7 @@ public class MiniMap : MonoBehaviour
     {
         minimap.enabled = Input.GetKey(KeyCode.Tab);
         pointer.localPosition = new Vector3(playePos.position.x * 5.0f, playePos.position.z * 5.0f, 0);
+        pointer.localRotation = Quaternion.Euler(Vector3.back * playePos.eulerAngles.y);
         for (int i = 0; i < doorPointers.Length; i++) {
             doorPointers[i].localRotation = Quaternion.Euler(Vector3.back * doors[i].getApperture() * -100.0f);  
         }
