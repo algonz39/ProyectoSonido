@@ -280,16 +280,16 @@
 			<value>-14.5</value>
 		</property>
 		<property name="polyphony">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="soundStealing">
 			<value>3</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>4500</value>
+			<value>14000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>4500</value>
+			<value>14000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>3.20000005</value>

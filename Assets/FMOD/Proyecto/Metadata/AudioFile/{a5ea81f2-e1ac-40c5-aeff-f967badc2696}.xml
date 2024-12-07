@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a5ea81f2-e1ac-40c5-aeff-f967badc2696}">
+		<property name="assetPath">
+			<value>door-182650 - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.65428571428571425</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3113cfeb-f69a-429a-9c5c-80616c9591cc}</destination>
+		</relationship>
+	</object>
+</objects>
