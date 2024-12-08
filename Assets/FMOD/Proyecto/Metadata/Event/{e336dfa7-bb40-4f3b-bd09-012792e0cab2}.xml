@@ -5,7 +5,7 @@
 			<value>Forest</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0ffe4df8-9480-41a9-bc69-a2e4ae8504c0}</destination>
@@ -112,7 +112,11 @@
 			<destination>{ced3a56c-a10b-4b1d-8039-972e34a32118}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{db8a26d6-7229-4003-8d21-7676485a27f0}" />
+	<object class="Timeline" id="{db8a26d6-7229-4003-8d21-7676485a27f0}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{a6c3dd1d-4351-4335-ad7e-9a2de3a308e6}">
 		<relationship name="modules">
 			<destination>{964f0021-d4b5-4079-9389-25aae9f9c3aa}</destination>
@@ -251,6 +255,9 @@
 		<property name="maximumTimeBetweenSounds">
 			<value>6000</value>
 		</property>
+		<property name="maximumScatterDistance">
+			<value>30</value>
+		</property>
 		<property name="pitchRandomization">
 			<value>6</value>
 		</property>
@@ -289,13 +296,13 @@
 			<value>14000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>14000</value>
+			<value>30000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>3.20000005</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>3.20000005</value>
+			<value>25</value>
 		</property>
 		<relationship name="sound">
 			<destination>{e52ffb17-3e97-4163-b5f7-92437ec75ffd}</destination>
@@ -318,7 +325,6 @@
 	<object class="MixerBusEffectChain" id="{4ac8cd9d-f05b-4960-b4d4-15441e752e09}">
 		<relationship name="effects">
 			<destination>{17591aa3-0de7-4d8c-8c09-105ae53eff88}</destination>
-			<destination>{ae31a118-5678-42bc-a3c2-e8864e989fcd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8739c47e-6b8f-432a-9791-1d255ac7fc63}" />
@@ -386,7 +392,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{8fbbfc6f-4833-4386-81ae-4994aac72e67}" />
 	<object class="MixerBusFader" id="{17591aa3-0de7-4d8c-8c09-105ae53eff88}" />
-	<object class="SpatialiserEffect" id="{ae31a118-5678-42bc-a3c2-e8864e989fcd}" />
 	<object class="MixerBusFader" id="{98e30860-7e35-4768-803d-8fd966507af8}" />
 	<object class="MixerBusFader" id="{7dd5d8ac-0ca2-4520-b91c-faa6e2723c3a}" />
 	<object class="AutomationCurve" id="{718c0a5f-f7c1-45bd-b1df-2ea03639e522}">

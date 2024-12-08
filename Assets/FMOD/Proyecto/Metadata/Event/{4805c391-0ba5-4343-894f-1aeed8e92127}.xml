@@ -5,7 +5,7 @@
 			<value>Plaza con terraza</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0ffe4df8-9480-41a9-bc69-a2e4ae8504c0}</destination>
@@ -245,10 +245,7 @@
 			<value>3000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>0.300000012</value>
-		</property>
-		<property name="maximumScatterDistance">
-			<value>4</value>
+			<value>0</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>1.10000002</value>
@@ -280,7 +277,6 @@
 	<object class="MixerBusEffectChain" id="{87742230-5d40-4344-846d-fc051dab13d7}">
 		<relationship name="effects">
 			<destination>{8f945f51-113d-478e-a7f8-e911e958f9c7}</destination>
-			<destination>{f1ddff60-5e2e-42a4-8a41-f53f4ad7873a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{43e44595-57eb-4cc6-976f-f8822b20221b}" />
@@ -337,7 +333,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c55d421c-6906-42ef-ac2b-1f95b6794e91}" />
 	<object class="MixerBusFader" id="{8f945f51-113d-478e-a7f8-e911e958f9c7}" />
-	<object class="SpatialiserEffect" id="{f1ddff60-5e2e-42a4-8a41-f53f4ad7873a}" />
 	<object class="AutomationCurve" id="{5d76012c-699a-4bdd-a9d4-ce69fd463918}">
 		<relationship name="parameter">
 			<destination>{07cd5108-03fb-47e4-9762-67c5ba0e0ed1}</destination>
@@ -369,7 +364,7 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{108b97df-54ad-4422-90e0-24c8f4503fb9}</destination>
-			<destination>{fe91af71-9266-48f4-a60d-df7db7fc6f15}</destination>
+			<destination>{6342b5e9-e032-470e-8487-ee590ffb08fb}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{49878349-4776-4367-9219-8982b23d8602}">
@@ -430,12 +425,12 @@
 			<value>-40</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{fe91af71-9266-48f4-a60d-df7db7fc6f15}">
+	<object class="AutomationPoint" id="{6342b5e9-e032-470e-8487-ee590ffb08fb}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-15</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{f1b69a75-f8f9-42d5-a7ee-86877135237e}">

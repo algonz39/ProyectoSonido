@@ -5,7 +5,7 @@
 			<value>Highway</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0ffe4df8-9480-41a9-bc69-a2e4ae8504c0}</destination>
@@ -239,10 +239,10 @@
 			<value>5500</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>9.60000038</value>
+			<value>5</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>75</value>
+			<value>30</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>2.9000001</value>
@@ -292,10 +292,10 @@
 			<value>58000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>2.35000014</value>
+			<value>4.80000019</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>8.19999981</value>
+			<value>35</value>
 		</property>
 		<relationship name="sound">
 			<destination>{f3b1c9e7-0e5a-4b59-96ff-2eeb17768ee1}</destination>
@@ -321,7 +321,6 @@
 	<object class="MixerBusEffectChain" id="{b85b6fb9-60cd-47a1-9eda-31705c0eaba4}">
 		<relationship name="effects">
 			<destination>{a54b3bea-c25b-4ac6-b001-90a00458b5cd}</destination>
-			<destination>{be0cb771-4448-40d1-85f4-cb1626771b7c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{500e4712-d0a1-4698-ad54-f28eb703b1f2}" />
@@ -401,7 +400,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{6877c0bc-324b-4343-8927-4c2a3d1b1faa}" />
 	<object class="MixerBusFader" id="{a54b3bea-c25b-4ac6-b001-90a00458b5cd}" />
-	<object class="SpatialiserEffect" id="{be0cb771-4448-40d1-85f4-cb1626771b7c}" />
 	<object class="AutomationCurve" id="{f0f07b4b-3ce2-49da-a9c5-e9829f9186c9}">
 		<relationship name="parameter">
 			<destination>{116a0ae5-9a9d-4b4b-ade6-3806ea3d17ce}</destination>

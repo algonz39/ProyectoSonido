@@ -24,8 +24,8 @@ public class BeachController : MonoBehaviour
     void Update()
     {
         float seaValue = Mathf.Clamp01(Math.Abs(playerPos.position.z - roomEntranceZ) / roomLengthZ);
-        emitter.SetParameter("CloseTo Sea", seaValue);
-        emitter.SetParameter("CloseTo Seagull", getParameterValue(seagullPos));
+        emitter.SetParameter("CloseToSea", seaValue);
+        emitter.SetParameter("CloseToSeagull", getParameterValue(seagullPos));
     }
 
     float getParameterValue(Vector3 position)

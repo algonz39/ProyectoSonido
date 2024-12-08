@@ -5,7 +5,7 @@
 			<value>SteppinBeach</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0ffe4df8-9480-41a9-bc69-a2e4ae8504c0}</destination>
@@ -99,7 +99,11 @@
 			<destination>{9108ecad-e388-4267-b9ef-6be533f94675}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{6da49dbf-8070-481f-a2e2-ef5aa0ba707b}" />
+	<object class="Timeline" id="{6da49dbf-8070-481f-a2e2-ef5aa0ba707b}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{8429fe90-341e-42ed-81b3-e4b21899721b}">
 		<relationship name="modules">
 			<destination>{368450a1-e64c-4175-908e-0975275530bf}</destination>
@@ -237,7 +241,6 @@
 	<object class="MixerBusEffectChain" id="{9ce8ab52-08b1-4159-93bd-5ce037599793}">
 		<relationship name="effects">
 			<destination>{3c5c83b3-d9d3-4a1b-896b-a9ba6cb85e07}</destination>
-			<destination>{06c7dbe8-47a2-4188-8ec0-f2a6f9d3a00c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d4dcef6a-6fcc-476a-acac-f580e545658f}" />
@@ -288,7 +291,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{c90cea59-4a7e-449f-b627-de76dac510a2}" />
 	<object class="MixerBusFader" id="{3c5c83b3-d9d3-4a1b-896b-a9ba6cb85e07}" />
-	<object class="SpatialiserEffect" id="{06c7dbe8-47a2-4188-8ec0-f2a6f9d3a00c}" />
 	<object class="AutomationCurve" id="{21d8fac4-c15b-4111-a870-92fcdab562ad}">
 		<relationship name="parameter">
 			<destination>{c277b13a-d492-477d-841d-f434ab8b8eb0}</destination>

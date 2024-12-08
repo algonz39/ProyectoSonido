@@ -24,8 +24,8 @@ public class PlazaController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        emitter.SetParameter("PalomasCerca", getParameterValue(pidgeonPos));
-        emitter.SetParameter("Cercania a fuente", getParameterValue(fountainPos));
+        emitter.SetParameter("Pigeons", getParameterValue(pidgeonPos));
+        emitter.SetParameter("Fountain", getParameterValue(fountainPos));
     }
 
     float getParameterValue(Vector3 position) {

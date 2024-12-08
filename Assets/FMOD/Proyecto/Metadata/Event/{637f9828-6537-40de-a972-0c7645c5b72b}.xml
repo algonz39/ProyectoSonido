@@ -317,10 +317,10 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-14</value>
+			<value>-42</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.32430771</value>
+			<value>-0.384991407</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{bf8476fa-1751-48d3-876a-0ac8e076beff}">
@@ -328,10 +328,10 @@
 			<value>0.17372881148385411</value>
 		</property>
 		<property name="value">
-			<value>-7.20000076</value>
+			<value>-9</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.651391268</value>
+			<value>-0.125587791</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4410d973-3234-4279-a810-6b1b8b2a0b28}">
@@ -339,7 +339,7 @@
 			<value>0.41384180682354854</value>
 		</property>
 		<property name="value">
-			<value>-6.20000076</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{bd149433-3f62-4d87-8afc-e01d06e6316b}">
@@ -347,7 +347,7 @@
 			<value>0.53813559322033899</value>
 		</property>
 		<property name="value">
-			<value>-4.20000076</value>
+			<value>-4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{83f9e9e0-f287-44f2-97a4-b77bfc67b37a}">
@@ -355,7 +355,7 @@
 			<value>0.30649717495397388</value>
 		</property>
 		<property name="value">
-			<value>-6.20000076</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="Automator" id="{69ab2044-7f76-469f-840b-c0a8f300dc3a}">
@@ -393,10 +393,10 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>800</value>
+			<value>550</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.610362411</value>
+			<value>-0.155480087</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d162fe8a-5aa2-41c1-a4ce-eded476fdb87}">
@@ -439,7 +439,7 @@
 			<value>0.070000000000000007</value>
 		</property>
 		<property name="value">
-			<value>1600</value>
+			<value>2000</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.246222168</value>
