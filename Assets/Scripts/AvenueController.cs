@@ -22,6 +22,6 @@ public class AvenueController : MonoBehaviour
     void Update()
     {
         float value = Mathf.Clamp01(1 - Math.Abs(playerPos.position.x - roomEntranceX) / roomLengthX);
-        emitter.SetParameter("CloseTo Seagull", value);
+        emitter.SetParameter("CloseToRoad", value);
     }
 }
